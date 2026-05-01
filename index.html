@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download DiaLife - Your Personal Diabetes Companion</title>
+    <meta name="description" content="Download DiaLife, the ultimate app for real-time diabetes tracking, cloud sync, and emergency alerts. Manage your health with ease.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-glow"></div>
+    
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">Dia<span>Life</span></div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="DiaLife.apk" class="btn btn-secondary">Download Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="fade-in">Take Control of Your <span>Diabetes</span> Journey.</h1>
+                <p class="fade-in-delayed">DiaLife provides real-time monitoring, cloud synchronization, and smart alerts to keep you and your loved ones safe and informed.</p>
+                <div class="hero-btns fade-in-delayed">
+                    <a href="DiaLife.apk" class="btn btn-primary" id="download-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download for Android
+                    </a>
+                    <span class="version-info">Latest Version v1.0.0 • 104 MB</span>
+                </div>
+            </div>
+            <div class="hero-image fade-in-right">
+                <div class="image-wrapper">
+                    <img src="mockup.png" alt="DiaLife App Mockup">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose DiaLife?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Real-time Tracking</h3>
+                    <p>Monitor your blood glucose levels with beautiful, easy-to-read interactive charts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Cloud Sync</h3>
+                    <p>Your data is securely backed up and synced across all your devices in real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚨</div>
+                    <h3>Emergency Alerts</h3>
+                    <p>Automatically notify family members if your readings reach critical levels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 DiaLife. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('download-btn').addEventListener('click', () => {
+            console.log('Download started...');
+        });
+    </script>
+</body>
+</html>
